@@ -1,0 +1,316 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+.layout {
+    position: relative;
+    width: 612px; /* Approx A4 width */
+    height: 792px; /* Approx A4 height */
+    margin: 40px auto;
+    background:#FFFFFF;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.header {
+    margin-top: 24.5px;
+    width: 612px;
+    height: 132px;
+    display: flex;
+    justify-content: space-between; /* horizontally distributes children */
+    align-items: center;           /* vertically centers them */
+    background-color: #92AFDC;
+    color: #FFFFFF;
+    
+}
+.header_black {
+    margin-top: 24.5px;
+    width: 612px;
+    height: 132px;
+    display: flex;
+    justify-content: space-between; /* horizontally distributes children */
+    align-items: center;           /* vertically centers them */
+    background-color: #ABABAB;
+    color: #FFFFFF;
+    
+}
+
+.left_header, .right_header {
+    width: 189px;
+    height:96.49;
+    top: 40.5px;
+    margin-left: 40px;
+    gap: 6px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;       
+    font-style: normal;     
+   font-size: 12px;        
+   line-height: 100%;      
+   letter-spacing: 0;      
+   color: #FFFFFF;    
+}
+.left_header strong {
+  font-weight: 700;       /* bold for labels */
+}
+.header_image {
+    width: 66.62567138671875;
+    height: 18.221763610839844;
+    opacity: 1;
+    top: 80.5px;
+    left: 250px;
+    border-width: 2.5px;
+}
+.patient_box{
+      width: 532px;
+      height: 23px;
+      top: auto;
+      left: 40px;
+      margin: 0 auto;
+      align-items: center;
+}
+.patient-box strong {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;        
+    font-style: normal;     
+    font-size: 20px;
+    line-height: 100%;       
+    letter-spacing: -0.02em; 
+    color:#172121;
+}
+.patient_name{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;          
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;   
+  color: #3D59A7;
+
+}
+
+.patient_name_black{
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;          
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;   
+  color: #ABABAB;
+}
+.body{
+    width: 532px;
+    height: 232.9794921875px;
+    margin:0px auto;
+}
+.contact_details{
+    display:flex;
+    gap: 100px;
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.contact_details strong {
+    font-weight: 700;   
+    }
+.line{
+      width: 532px;
+      top: auto;
+      left: 40px;
+      margin:auto;
+      align-items: center;
+      color: #3D59A7;
+
+      
+}
+
+.line_black{
+      width: 532px;
+      top: auto;
+      left: 40px;
+      margin:auto;
+      align-items: center;
+      color: #ABABAB;
+
+      
+}
+.teeth_no, .procedures {
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal; /* "Regular" → normal */
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.teeth_no strong, .procedures strong {
+    font-weight: 700;   
+    }
+.clinical_notes{
+    width: 532px;
+    height: 107px;
+    margin: 0px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal; /* "Regular" → normal */
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+}
+.clinical_notes strong {
+    font-weight: 700;   
+    }
+.images{
+    width: 532px;
+    height: 186px;
+    margin:20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images_grid{
+    width: 532px;
+    /* height: 186px; */
+    margin:40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   justify-content: space-between;
+    align-items: center;
+}
+.image1{
+    width: 164px;
+    height: 186px;
+    border: 2px solid #92AFDC;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.image1_black{
+    width: 164px;
+    height: 186px;
+    border: 2px solid #ABABAB;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+.teeth_image{
+ width: 115px;
+ height: 147px;
+}
+.image_text {
+    width: 164px;
+    height: 22px;
+    background-color: #92AFDC;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 22px; 
+    letter-spacing: 0%;
+    margin-bottom: 0;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+.image_text_black {
+    width: 164px;
+    height: 22px;
+    background-color: #ABABAB;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 22px; 
+    letter-spacing: 0%;
+    margin-bottom: 0;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 535px;
+    height: 74.52px;
+    margin:20px auto;
+
+}
+.logo{
+    width: 149px;
+    height: 56px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.logo_text{
+width: 150px;
+height: 15px;
+font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 400;
+ font-style: normal; 
+ font-size: 12px;
+ line-height: 100%;
+ letter-spacing: 0%;
+ 
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-left:6px;
+}
+.logo_image{
+    width: 25.72px;
+    height: 24.51px;
+}
+.logo_vector{
+    display: flex;
+    gap: 2px;
+}
+.footer_right{
+    width: 259px;
+    height: 30px;
+    margin-top: 31px;
+}
+.footer_text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 40pxpx;
+}
+
+
+
+.watermark {
+  position: absolute;
+  top: 233px;
+  left: 143px;
+  width: 326px;
+  height: 326px;
+  background: url('assets/watermark.svg') no-repeat center;
+  background-size: contain;
+  color: #22273714; /* transparent overlay color */
+  transform: rotate(0deg);
+  pointer-events: none;
+  z-index: 0;
+}
